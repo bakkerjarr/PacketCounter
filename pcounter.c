@@ -20,6 +20,10 @@
 * DESCRIPTION :
 *       Count packets on an interface and the write the value to a file
 *       when the program closes via SIGINT (Ctrl-c) or SIGTERM.
+*
+* Usage :
+*       Note that you need root privileges to run this program.
+*       $ pcounter <interface name>
 * 
 * AUTHOR :  Jarrod N. Bakker    START DATE :    11/12/2016
 *
